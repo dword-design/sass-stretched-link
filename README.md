@@ -53,6 +53,8 @@
 
 <!-- /DESCRIPTION -->
 
+It sometimes happens that when you click a card with a link, you want the whole card to be clickable. The best way to do this is to have a link that is put inside the card but the clickable link area stretches over the card. Bootstrap implements a [.stretched-link](https://getbootstrap.com/docs/4.3/utilities/stretched-link/) class which does that. This SASS mixin implements the logic behind it and thus abstracts away complexity from the app or the CSS framework.
+
 <!-- INSTALL/ -->
 ## Install
 
@@ -64,6 +66,30 @@ $ npm install sass-stretched-link
 $ yarn add sass-stretched-link
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Import the mixin like so:
+
+```scss
+@import '~sass-stretched-link';
+```
+
+Then create a class with the mixin:
+
+```scss
+.stretched-link {
+  @include stretched-link;
+}
+```
+
+Now you can use the class in your code:
+
+```html
+<div class="card">
+  <a class="stretched-link" href="/">Link</a>
+</div>
+```
 
 <!-- LICENSE/ -->
 ## Contribute

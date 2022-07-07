@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+A SASS mixin that implements a stretched link. Useful for cards that should be clickable everywhere.
 <!-- /DESCRIPTION -->
 
 It sometimes happens that when you click a card with a link, you want the whole card to be clickable. The best way to do this is to have a link that is put inside the card but the clickable link area stretches over the card. Bootstrap implements a [.stretched-link](https://getbootstrap.com/docs/4.3/utilities/stretched-link/) class which does that. This SASS mixin implements the logic behind it and thus abstracts away complexity from the app or the CSS framework.

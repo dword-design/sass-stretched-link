@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/sass-stretched-link/compare/v1.0.0...v1.0.1) (2022-07-07)
+
+
+### Bug Fixes
+
+* doc ([c937bfb](https://github.com/dword-design/sass-stretched-link/commit/c937bfb090ef9fcdffc36030450070a068f474ac))
+
 # 1.0.0 (2022-07-07)
 
 

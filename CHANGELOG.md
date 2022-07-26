@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/sass-stretched-link/compare/v1.0.2...v1.0.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* write GitHub metadata to package.json [keywords] ([#6](https://github.com/dword-design/sass-stretched-link/issues/6)) ([d0abc1a](https://github.com/dword-design/sass-stretched-link/commit/d0abc1a8a6d81eec32404e6346920889d7718020))
+
 ## [1.0.2](https://github.com/dword-design/sass-stretched-link/compare/v1.0.1...v1.0.2) (2022-07-07)
 
 

@@ -4,8 +4,11 @@
   "description": "A SASS mixin that implements a stretched link. Useful for cards that should be clickable everywhere.",
   "keywords": [
     "bootstrap",
+    "box-link",
     "boxlink",
     "link-size",
+    "sass",
+    "scss",
     "stretched-link"
   ],
   "repository": "dword-design/sass-stretched-link",

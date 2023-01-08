@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/sass-stretched-link/compare/v1.0.3...v2.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#12](https://github.com/dword-design/sass-stretched-link/issues/12)) ([0e5ae63](https://github.com/dword-design/sass-stretched-link/commit/0e5ae6331e03674569161905b02fc01931d3412b))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support
+
 ## [1.0.3](https://github.com/dword-design/sass-stretched-link/compare/v1.0.2...v1.0.3) (2022-07-26)
 
 

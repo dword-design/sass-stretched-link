@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/sass-stretched-link/compare/v2.0.2...v2.0.3) (2023-03-15)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.3 ([001e1a2](https://github.com/dword-design/sass-stretched-link/commit/001e1a28ec1f1ebd326cfcd9d4a5483e539cdf35))
+
 ## [2.0.2](https://github.com/dword-design/sass-stretched-link/compare/v2.0.1...v2.0.2) (2023-03-15)
 
 

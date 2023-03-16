@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/dword-design/sass-stretched-link/compare/v2.0.5...v2.0.6) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.12 ([fe6810d](https://github.com/dword-design/sass-stretched-link/commit/fe6810d51d7bc90f475151aca0701c59c0533f3b))
+
 ## [2.0.5](https://github.com/dword-design/sass-stretched-link/compare/v2.0.4...v2.0.5) (2023-03-16)
 
 

@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/dword-design/sass-stretched-link/compare/v2.0.6...v2.0.7) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base-config-sass to v2.0.44 ([74d0352](https://github.com/dword-design/sass-stretched-link/commit/74d03525e78033211acfaecf16fa1c89abc74eb8))
+
 ## [2.0.6](https://github.com/dword-design/sass-stretched-link/compare/v2.0.5...v2.0.6) (2023-03-16)
 
 

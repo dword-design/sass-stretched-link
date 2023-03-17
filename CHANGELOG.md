@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/sass-stretched-link/compare/v2.0.9...v2.0.10) (2023-03-17)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.16.3 ([6399427](https://github.com/dword-design/sass-stretched-link/commit/639942798bbb162bdba2aa522edcd68e36e4ccb3))
+
 ## [2.0.9](https://github.com/dword-design/sass-stretched-link/compare/v2.0.8...v2.0.9) (2023-03-16)
 
 

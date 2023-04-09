@@ -1,6 +1,6 @@
 {
   "name": "sass-stretched-link",
-  "version": "2.0.30",
+  "version": "2.0.31",
   "description": "A SASS mixin that implements a stretched link. Useful for cards that should be clickable everywhere.",
   "keywords": [
     "bootstrap",

@@ -1,3 +1,10 @@
+## [2.0.38](https://github.com/dword-design/sass-stretched-link/compare/v2.0.37...v2.0.38) (2023-04-10)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v5.0.1 ([9281270](https://github.com/dword-design/sass-stretched-link/commit/9281270c0e64bab3d445e5761461864bb07f1c1f))
+
 ## [2.0.37](https://github.com/dword-design/sass-stretched-link/compare/v2.0.36...v2.0.37) (2023-04-10)
 
 

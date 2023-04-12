@@ -1,3 +1,10 @@
+## [2.0.41](https://github.com/dword-design/sass-stretched-link/compare/v2.0.40...v2.0.41) (2023-04-12)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.59 ([309455b](https://github.com/dword-design/sass-stretched-link/commit/309455b0f63e0bca52c69331146b4d87d65f8e27))
+
 ## [2.0.40](https://github.com/dword-design/sass-stretched-link/compare/v2.0.39...v2.0.40) (2023-04-11)
 
 

@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/sass-stretched-link/compare/v2.0.53...v3.0.0) (2025-12-11)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#82](https://github.com/dword-design/sass-stretched-link/issues/82)) ([f65c06c](https://github.com/dword-design/sass-stretched-link/commit/f65c06c40e6dbe67c1dd75972e490b09f2089873))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [2.0.53](https://github.com/dword-design/sass-stretched-link/compare/v2.0.52...v2.0.53) (2023-04-28)
 
 

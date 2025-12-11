@@ -34,6 +34,7 @@
   "devDependencies": {
     "@dword-design/base": "^16",
     "@dword-design/base-config-sass": "^3",
+    "@playwright/browser-chromium": "^1.57.0",
     "@playwright/test": "^1.57.0",
     "endent": "npm:@dword-design/endent@^1.4.7",
     "execa": "^9.6.1",

@@ -1,6 +1,7 @@
 {
   "depcheckConfig": {
     "ignoreMatches": [
+      "@playwright/browser-chromium",
       "sass"
     ]
   },

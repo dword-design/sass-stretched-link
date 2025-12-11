@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import endent from 'endent';
 import { execaCommand } from 'execa';
 import getPort from 'get-port';
@@ -12,7 +12,7 @@ test('valid', async ({ page }, testInfo) => {
   await outputFiles(cwd, {
     app: {
       'assets/style.scss': endent`
-        @import './../../src/index.scss';
+        @import './../../../../src/index.scss';
 
         .stretched-link {
           @include stretched-link;
@@ -29,7 +29,7 @@ test('valid', async ({ page }, testInfo) => {
     'nuxt.config.ts': endent`
       export default defineNuxtConfig({
         css: ['@/assets/style.scss'],
-      })
+      });
     `,
   });
 
@@ -39,12 +39,13 @@ test('valid', async ({ page }, testInfo) => {
   try {
     await nuxtDevReady(port);
     await page.goto(`http://localhost:${port}`);
-    const card = await page.waitForSelector('.foo');
+    const card = page.locator('.foo');
+    await expect(card).toBeAttached();
     const rect = (await card.boundingBox())!;
     await page.mouse.move(rect.x + 5, rect.y + 5);
-    await page.waitForSelector('.foo a:hover');
+    await expect(page.locator('.foo a:hover')).toBeAttached();
     await page.mouse.move(rect.x + 10, rect.y + rect.height + 20);
-    await page.waitForSelector('.foo a:hover', { hidden: true });
+    await expect(page.locator('.foo a:hover')).toBeHidden();
   } finally {
     await kill(nuxt.pid!);
   }
